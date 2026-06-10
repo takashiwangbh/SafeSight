@@ -1,0 +1,9 @@
+model,method,fp_suppression_rate,n_fp,n_tp,sc_outputs_missing,tp_retention_rate
+qwen2vl-7b,confidence_gate@0.6,0.01,100,50,,1.0
+qwen2vl-7b,self_correction,1.0,100,50,0,0.12
+qwen2vl-7b,egav_state,0.72,100,50,,0.86
+qwen2vl-7b,egav_state_object,0.53,100,50,,1.0
+llama3.2-vision-11b,confidence_gate@0.6,0.03,100,50,,1.0
+llama3.2-vision-11b,self_correction,0.7,100,50,0,0.22
+llama3.2-vision-11b,egav_state,0.77,100,50,,0.84
+llama3.2-vision-11b,egav_state_object,0.62,100,50,,0.88

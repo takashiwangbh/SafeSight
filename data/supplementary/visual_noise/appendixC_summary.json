@@ -1,0 +1,138 @@
+{
+  "by_condition": [
+    {
+      "model": "qwen2vl-7b",
+      "condition": "clean",
+      "noise_type": "clean",
+      "intensity": 0.0,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "gaussian_sensor_0.3",
+      "noise_type": "gaussian_sensor",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 0.98,
+      "delta_vs_clean": -0.02
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "gaussian_sensor_0.7",
+      "noise_type": "gaussian_sensor",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 0.98,
+      "delta_vs_clean": -0.02
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "low_illumination_0.3",
+      "noise_type": "low_illumination",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "low_illumination_0.7",
+      "noise_type": "low_illumination",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "motion_blur_0.3",
+      "noise_type": "motion_blur",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "condition": "motion_blur_0.7",
+      "noise_type": "motion_blur",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "clean",
+      "noise_type": "clean",
+      "intensity": 0.0,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "gaussian_sensor_0.3",
+      "noise_type": "gaussian_sensor",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 0.9,
+      "delta_vs_clean": -0.1
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "gaussian_sensor_0.7",
+      "noise_type": "gaussian_sensor",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 0.94,
+      "delta_vs_clean": -0.06
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "low_illumination_0.3",
+      "noise_type": "low_illumination",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 0.98,
+      "delta_vs_clean": -0.02
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "low_illumination_0.7",
+      "noise_type": "low_illumination",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 0.96,
+      "delta_vs_clean": -0.04
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "motion_blur_0.3",
+      "noise_type": "motion_blur",
+      "intensity": 0.3,
+      "n": 50,
+      "recall": 1.0,
+      "delta_vs_clean": 0.0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "condition": "motion_blur_0.7",
+      "noise_type": "motion_blur",
+      "intensity": 0.7,
+      "n": 50,
+      "recall": 0.98,
+      "delta_vs_clean": -0.02
+    }
+  ],
+  "clean_recall": {
+    "qwen2vl-7b": {
+      "clean_recall": 1.0
+    },
+    "llama3.2-vision-11b": {
+      "clean_recall": 1.0
+    }
+  }
+}

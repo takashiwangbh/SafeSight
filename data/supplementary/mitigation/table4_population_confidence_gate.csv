@@ -1,0 +1,11 @@
+model,track,threshold,far_after,far_before,fp_overturned,n_hazard,n_safe,recall_after,recall_before,tp_lost
+qwen2vl-7b,text_and_image,0.6,0.8792,0.882,1,891,356,0.9854,0.9865,1
+qwen2vl-7b,text_and_image,0.7,0.8792,0.882,1,891,356,0.9854,0.9865,1
+qwen2vl-7b,text_and_image,0.8,0.8624,0.882,7,891,356,0.9719,0.9865,13
+qwen2vl-7b,text_and_image,0.9,0.8624,0.882,7,891,356,0.9719,0.9865,13
+qwen2vl-7b,text_and_image,0.95,0.073,0.882,288,891,356,0.3367,0.9865,579
+llama3.2-vision-11b,text_and_image,0.6,0.736,0.7612,9,891,356,0.8777,0.8878,9
+llama3.2-vision-11b,text_and_image,0.7,0.736,0.7612,9,891,356,0.8777,0.8878,9
+llama3.2-vision-11b,text_and_image,0.8,0.3118,0.7612,160,891,356,0.4456,0.8878,394
+llama3.2-vision-11b,text_and_image,0.9,0.0028,0.7612,270,891,356,0.0976,0.8878,704
+llama3.2-vision-11b,text_and_image,0.95,0.0,0.7612,271,891,356,0.0045,0.8878,787

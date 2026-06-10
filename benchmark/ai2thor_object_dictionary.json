@@ -1,0 +1,2302 @@
+{
+  "AlarmClock": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "AlarmClock|-01.28|+01.24|-00.47",
+      "AlarmClock|+00.45|+00.67|-01.74"
+    ]
+  },
+  "Apple": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": true,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Apple|-00.47|+01.15|+00.48",
+      "Apple|-01.65|+00.81|+00.07"
+    ]
+  },
+  "ArmChair": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "ArmChair|-04.38|+00.00|+06.02",
+      "ArmChair|-00.85|+00.00|+05.98"
+    ]
+  },
+  "BaseballBat": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "BaseballBat|+02.84|+00.29|+01.82",
+      "BaseballBat|-01.87|+00.68|+00.39"
+    ]
+  },
+  "BasketBall": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "BasketBall|+00.24|+00.13|-01.24",
+      "BasketBall|-01.66|+00.13|-00.09"
+    ]
+  },
+  "Bathtub": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Bathtub|-00.21|+00.36|+00.92",
+      "Bathtub|-02.90|+00.67|+02.86"
+    ]
+  },
+  "BathtubBasin": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Bathtub|-00.21|+00.36|+00.92|BathtubBasin",
+      "Bathtub|-02.90|+00.67|+02.86|BathtubBasin"
+    ]
+  },
+  "Bed": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": true,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Bed|-00.64|+00.01|+00.87",
+      "Bed|+01.24|+00.01|-00.89"
+    ]
+  },
+  "Blinds": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Blinds|+00.11|+02.34|-01.44",
+      "Blinds|-00.45|+02.16|-02.24"
+    ]
+  },
+  "Book": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 9,
+    "sample_ids": [
+      "Book|+00.15|+01.10|+00.62",
+      "Book|-01.87|+00.68|+01.17"
+    ]
+  },
+  "Boots": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Boots|-06.31|+00.01|+01.25",
+      "Boots|-01.28|+00.01|-01.34"
+    ]
+  },
+  "Bottle": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 1,
+    "sample_ids": [
+      "Bottle|+01.54|+00.89|-02.54"
+    ]
+  },
+  "Bowl": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": true,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 11,
+    "sample_ids": [
+      "Bowl|+00.27|+01.10|-00.75",
+      "Bowl|+00.28|+00.92|+01.09"
+    ]
+  },
+  "Box": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 9,
+    "sample_ids": [
+      "Box|-03.36|+00.19|+06.43",
+      "Box|+00.33|+00.90|+00.49"
+    ]
+  },
+  "Bread": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": true,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Bread|-00.52|+01.17|-00.03",
+      "Bread|+00.26|+00.99|-00.08"
+    ]
+  },
+  "ButterKnife": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "ButterKnife|-00.41|+01.11|-00.46",
+      "ButterKnife|+01.67|+00.69|-00.11"
+    ]
+  },
+  "CD": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "CD|+01.62|+00.80|-01.19",
+      "CD|-01.30|+00.80|-00.31"
+    ]
+  },
+  "Cabinet": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 8,
+    "sample_ids": [
+      "Cabinet|+00.68|+00.50|-02.20",
+      "Cabinet|-01.18|+00.50|-02.20"
+    ]
+  },
+  "Candle": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Candle|-03.11|+00.23|-00.05",
+      "Candle|-03.13|+00.68|+03.92"
+    ]
+  },
+  "CellPhone": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 8,
+    "sample_ids": [
+      "CellPhone|-00.31|+00.92|+01.29",
+      "CellPhone|-03.75|+00.76|-00.10"
+    ]
+  },
+  "Chair": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Chair|00.00|+00.00|+01.24",
+      "Chair|-02.52|+00.02|+01.88"
+    ]
+  },
+  "Cloth": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": true,
+    "room_types": [
+      "bathroom",
+      "bedroom"
+    ],
+    "num_scenes": 6,
+    "sample_ids": [
+      "Cloth|+02.18|00.00|-00.57",
+      "Cloth|-00.27|+00.04|+01.02"
+    ]
+  },
+  "CoffeeMachine": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "CoffeeMachine|-01.98|+00.90|-00.19",
+      "CoffeeMachine|+01.36|+00.90|-01.60"
+    ]
+  },
+  "CoffeeTable": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 4,
+    "sample_ids": [
+      "CoffeeTable|-02.33|+00.00|+04.92",
+      "CoffeeTable|-01.73|+00.01|+02.36"
+    ]
+  },
+  "CounterTop": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 8,
+    "sample_ids": [
+      "CounterTop|+00.69|+00.95|-02.48",
+      "CounterTop|-00.08|+01.15|00.00"
+    ]
+  },
+  "CreditCard": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 11,
+    "sample_ids": [
+      "CreditCard|-00.46|+01.10|+00.87",
+      "CreditCard|-01.94|+00.68|+01.80"
+    ]
+  },
+  "Cup": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": true,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Cup|+00.37|+01.64|-02.58",
+      "Cup|+00.90|+01.67|-01.61"
+    ]
+  },
+  "Curtains": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "Curtains|-00.08|+02.42|+00.97",
+      "Curtains|-03.97|+02.26|+01.45"
+    ]
+  },
+  "Desk": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 6,
+    "sample_ids": [
+      "Desk|-00.35|+00.00|+01.37",
+      "Desk|+02.21|+00.01|-01.26"
+    ]
+  },
+  "DeskLamp": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 8,
+    "sample_ids": [
+      "DeskLamp|-00.27|+00.70|+03.61",
+      "DeskLamp|+00.28|+00.74|+01.38"
+    ]
+  },
+  "DiningTable": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "DiningTable|-00.62|+00.02|+02.49",
+      "DiningTable|-02.27|-00.02|+01.42"
+    ]
+  },
+  "DishSponge": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 7,
+    "sample_ids": [
+      "DishSponge|-01.94|+00.75|-01.71",
+      "DishSponge|-00.55|+00.92|-01.39"
+    ]
+  },
+  "DogBed": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 1,
+    "sample_ids": [
+      "DogBed|+00.92|+00.01|-01.04"
+    ]
+  },
+  "Drawer": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 14,
+    "sample_ids": [
+      "Drawer|-01.56|+00.66|-00.20",
+      "Drawer|+00.95|+00.83|-02.20"
+    ]
+  },
+  "Dresser": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Dresser|-03.20|00.00|+06.79",
+      "Dresser|-01.33|+00.01|-00.75"
+    ]
+  },
+  "Dumbbell": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 1,
+    "sample_ids": [
+      "Dumbbell|-01.42|+00.00|+00.32"
+    ]
+  },
+  "Egg": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": true,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Egg|-02.04|+00.81|+01.24",
+      "Egg|+00.13|+00.95|-00.17"
+    ]
+  },
+  "Faucet": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Faucet|-02.15|+00.91|-01.50",
+      "Faucet|+00.00|+00.91|-01.68"
+    ]
+  },
+  "Floor": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 20,
+    "sample_ids": [
+      "Floor|+00.00|+00.00|+00.00",
+      "Floor|+00.00|+00.00|+00.00"
+    ]
+  },
+  "FloorLamp": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "FloorLamp|-00.57|+00.00|+00.02",
+      "FloorLamp|-03.69|00.00|+04.01"
+    ]
+  },
+  "Fork": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Fork|+00.95|+00.77|-02.37",
+      "Fork|+01.69|+00.90|+01.45"
+    ]
+  },
+  "Fridge": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Fridge|-02.10|+00.00|+01.07",
+      "Fridge|-01.76|+00.00|00.00"
+    ]
+  },
+  "GarbageBag": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 1,
+    "sample_ids": [
+      "GarbageBag|+01.74|00.00|+00.23"
+    ]
+  },
+  "GarbageCan": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 20,
+    "sample_ids": [
+      "GarbageCan|-01.94|00.00|+02.03",
+      "GarbageCan|-01.80|+00.01|+01.33"
+    ]
+  },
+  "HandTowel": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "HandTowel|-03.42|+01.34|+02.10",
+      "HandTowel|-00.11|+01.47|+04.81"
+    ]
+  },
+  "HandTowelHolder": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "HandTowelHolder|-03.46|+01.46|+00.82",
+      "HandTowelHolder|-03.46|+01.46|+02.10"
+    ]
+  },
+  "HousePlant": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": true,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "HousePlant|-01.95|+00.89|-02.52",
+      "HousePlant|-02.03|+01.31|-00.03"
+    ]
+  },
+  "Kettle": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 4,
+    "sample_ids": [
+      "Kettle|+01.04|+00.90|-02.60",
+      "Kettle|+01.68|+00.90|+00.09"
+    ]
+  },
+  "KeyChain": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "KeyChain|-00.27|+00.70|+03.13",
+      "KeyChain|-01.01|+00.70|+03.53"
+    ]
+  },
+  "Knife": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Knife|-01.70|+00.79|-00.22",
+      "Knife|+00.60|+00.91|-01.44"
+    ]
+  },
+  "Ladle": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "Ladle|+01.79|+00.93|+01.13",
+      "Ladle|-01.95|+01.14|+00.45"
+    ]
+  },
+  "Laptop": {
+    "toggleable": true,
+    "openable": true,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Laptop|-01.70|+00.68|+01.66",
+      "Laptop|-03.22|+00.61|+00.58"
+    ]
+  },
+  "LaundryHamper": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "LaundryHamper|-00.35|+00.01|+02.37",
+      "LaundryHamper|-01.43|+00.01|+01.68"
+    ]
+  },
+  "Lettuce": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": true,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Lettuce|-01.81|+00.97|-00.94",
+      "Lettuce|-01.71|+00.82|-00.14"
+    ]
+  },
+  "LightSwitch": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 20,
+    "sample_ids": [
+      "LightSwitch|+02.33|+01.31|-00.16",
+      "LightSwitch|-00.15|+01.29|+03.70"
+    ]
+  },
+  "Microwave": {
+    "toggleable": true,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Microwave|-00.24|+01.69|-02.53",
+      "Microwave|+01.93|+00.90|-00.77"
+    ]
+  },
+  "Mirror": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": true,
+    "room_types": [
+      "bathroom",
+      "bedroom"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Mirror|+01.99|+01.38|+01.88",
+      "Mirror|-01.38|+01.57|+00.51"
+    ]
+  },
+  "Mug": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": true,
+    "room_types": [
+      "bedroom",
+      "kitchen"
+    ],
+    "num_scenes": 9,
+    "sample_ids": [
+      "Mug|-01.76|+00.90|-00.62",
+      "Mug|-00.24|+00.92|-00.26"
+    ]
+  },
+  "Newspaper": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Newspaper|-02.76|+00.68|+01.18",
+      "Newspaper|+00.43|+00.42|+04.30"
+    ]
+  },
+  "Ottoman": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Ottoman|+00.49|+00.01|+04.31",
+      "Ottoman|-02.37|+00.00|+04.48"
+    ]
+  },
+  "Painting": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 6,
+    "sample_ids": [
+      "Painting|-02.05|+01.62|-00.30",
+      "Painting|-03.05|+01.69|+04.34"
+    ]
+  },
+  "Pan": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": true,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Pan|+00.72|+00.90|-02.42",
+      "Pan|-01.29|+00.90|-01.35"
+    ]
+  },
+  "PaperTowelRoll": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "PaperTowelRoll|-02.06|+01.01|-00.81",
+      "PaperTowelRoll|-02.04|+01.42|-01.90"
+    ]
+  },
+  "Pen": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 6,
+    "sample_ids": [
+      "Pen|-03.00|+00.69|+01.46",
+      "Pen|+01.93|+00.81|-01.18"
+    ]
+  },
+  "Pencil": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 7,
+    "sample_ids": [
+      "Pencil|-02.83|+00.68|+01.51",
+      "Pencil|-04.49|+00.76|-00.19"
+    ]
+  },
+  "PepperShaker": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "PepperShaker|+00.30|+00.90|-02.47",
+      "PepperShaker|+01.89|+00.90|+00.03"
+    ]
+  },
+  "Pillow": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Pillow|-03.15|+00.68|+03.42",
+      "Pillow|-00.50|+00.69|+00.51"
+    ]
+  },
+  "Plate": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": true,
+    "room_types": [
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 7,
+    "sample_ids": [
+      "Plate|+00.96|+01.65|-02.61",
+      "Plate|+01.32|+01.67|-01.60"
+    ]
+  },
+  "Plunger": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Plunger|+00.36|+00.00|+02.47",
+      "Plunger|-00.21|00.00|+03.54"
+    ]
+  },
+  "Poster": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Poster|+00.00|+01.50|-02.64",
+      "Poster|+01.48|+02.14|-00.13"
+    ]
+  },
+  "Pot": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": true,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Pot|-01.22|+00.90|-02.36",
+      "Pot|+00.89|+00.90|-01.41"
+    ]
+  },
+  "Potato": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": true,
+    "cookable": true,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Potato|-01.66|+00.93|-02.15",
+      "Potato|+00.33|+00.94|+01.31"
+    ]
+  },
+  "RemoteControl": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "RemoteControl|-02.58|+00.74|-00.15",
+      "RemoteControl|-01.27|+00.44|+02.15"
+    ]
+  },
+  "Safe": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "Safe|+00.17|+00.00|-00.07",
+      "Safe|+01.62|+00.00|+00.45"
+    ]
+  },
+  "SaltShaker": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "SaltShaker|+00.35|+00.90|-02.57",
+      "SaltShaker|+02.01|+00.90|+00.03"
+    ]
+  },
+  "ScrubBrush": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "ScrubBrush|+00.40|+00.00|+02.69",
+      "ScrubBrush|-00.23|00.00|+03.86"
+    ]
+  },
+  "Shelf": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 14,
+    "sample_ids": [
+      "Shelf|+01.75|+00.17|-02.56",
+      "Shelf|+01.75|+00.88|-02.56"
+    ]
+  },
+  "ShelvingUnit": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "ShelvingUnit|+01.75|+00.01|-02.56",
+      "ShelvingUnit|+02.76|+00.01|+00.15"
+    ]
+  },
+  "ShowerCurtain": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "ShowerCurtain|-00.79|+02.22|-00.24",
+      "ShowerCurtain|-00.36|+02.26|-00.41"
+    ]
+  },
+  "ShowerDoor": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "ShowerDoor|-00.28|+01.23|+01.73",
+      "ShowerDoor|-02.48|+01.77|+02.39"
+    ]
+  },
+  "ShowerGlass": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "ShowerGlass|+00.00|+00.00|+00.00",
+      "ShowerGlass|-02.90|+01.42|+02.34"
+    ]
+  },
+  "ShowerHead": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 4,
+    "sample_ids": [
+      "ShowerHead|-00.07|+00.91|+02.15",
+      "ShowerHead|-00.09|+01.02|+00.89"
+    ]
+  },
+  "SideTable": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 9,
+    "sample_ids": [
+      "SideTable|+00.98|+00.22|+00.87",
+      "SideTable|-00.25|+00.00|+03.37"
+    ]
+  },
+  "Sink": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Sink|-01.90|+00.97|-01.50",
+      "Sink|+00.00|+00.89|-01.44"
+    ]
+  },
+  "SinkBasin": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "Sink|-01.90|+00.97|-01.50|SinkBasin",
+      "Sink|+00.00|+00.89|-01.44|SinkBasin"
+    ]
+  },
+  "SoapBar": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "SoapBar|-00.69|+00.62|+01.99",
+      "SoapBar|-03.66|+00.53|+01.35"
+    ]
+  },
+  "SoapBottle": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "kitchen"
+    ],
+    "num_scenes": 10,
+    "sample_ids": [
+      "SoapBottle|-01.99|+00.90|-02.03",
+      "SoapBottle|-00.56|+00.90|-01.57"
+    ]
+  },
+  "Sofa": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Sofa|-02.40|00.00|+03.42",
+      "Sofa|-01.14|00.00|+00.52"
+    ]
+  },
+  "Spatula": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Spatula|+00.38|+00.91|-02.33",
+      "Spatula|+01.78|+00.91|-00.13"
+    ]
+  },
+  "Spoon": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Spoon|+00.98|+00.77|-02.29",
+      "Spoon|+01.62|+00.90|+01.40"
+    ]
+  },
+  "SprayBottle": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "SprayBottle|-03.09|+00.23|+00.29",
+      "SprayBottle|-01.74|+00.03|+04.87"
+    ]
+  },
+  "Statue": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 8,
+    "sample_ids": [
+      "Statue|+01.96|+00.18|-02.54",
+      "Statue|+02.83|+00.24|+00.18"
+    ]
+  },
+  "Stool": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "Stool|+00.70|+00.00|-00.51",
+      "Stool|+00.74|+00.00|+00.56"
+    ]
+  },
+  "StoveBurner": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "StoveBurner|-00.47|+00.92|-02.37",
+      "StoveBurner|-00.04|+00.92|-02.58"
+    ]
+  },
+  "StoveKnob": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "StoveKnob|-00.48|+00.88|-02.19",
+      "StoveKnob|-00.02|+00.88|-02.19"
+    ]
+  },
+  "TVStand": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "TVStand|-02.39|+00.01|+06.30",
+      "TVStand|-01.57|+00.00|+03.87"
+    ]
+  },
+  "TeddyBear": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 1,
+    "sample_ids": [
+      "TeddyBear|+01.71|+00.70|-00.17"
+    ]
+  },
+  "Television": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Television|-02.36|+01.21|+06.24",
+      "Television|-01.51|+01.19|+04.13"
+    ]
+  },
+  "TennisRacket": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "TennisRacket|-01.24|+00.32|-00.07",
+      "TennisRacket|+02.23|+00.31|-01.89"
+    ]
+  },
+  "TissueBox": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "TissueBox|-02.74|+00.72|+06.13",
+      "TissueBox|-00.99|+00.88|+00.24"
+    ]
+  },
+  "Toaster": {
+    "toggleable": true,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": true,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Toaster|-01.84|+00.90|+00.13",
+      "Toaster|+01.98|+00.90|-00.34"
+    ]
+  },
+  "Toilet": {
+    "toggleable": false,
+    "openable": true,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Toilet|+00.06|+00.00|+03.10",
+      "Toilet|-00.52|00.00|+03.22"
+    ]
+  },
+  "ToiletPaper": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "ToiletPaper|-02.45|+01.03|+03.95",
+      "ToiletPaper|-02.31|+00.77|+03.88"
+    ]
+  },
+  "ToiletPaperHanger": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "ToiletPaperHanger|-00.43|+00.78|+02.28",
+      "ToiletPaperHanger|-00.07|+01.13|+03.69"
+    ]
+  },
+  "Tomato": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": true,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Tomato|-00.39|+01.14|-00.81",
+      "Tomato|+00.17|+00.97|-00.28"
+    ]
+  },
+  "Towel": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Towel|-01.30|+01.06|-00.18",
+      "Towel|-00.18|+01.42|+02.43"
+    ]
+  },
+  "TowelHolder": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": true,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "TowelHolder|-01.30|+01.05|-00.29",
+      "TowelHolder|-02.05|+01.05|-00.29"
+    ]
+  },
+  "Vase": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 6,
+    "sample_ids": [
+      "Vase|+01.56|+00.56|-02.50",
+      "Vase|+01.99|+00.56|-02.49"
+    ]
+  },
+  "Watch": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bedroom",
+      "living_room"
+    ],
+    "num_scenes": 5,
+    "sample_ids": [
+      "Watch|-02.10|+00.73|-00.06",
+      "Watch|-01.22|+00.70|+03.47"
+    ]
+  },
+  "WateringCan": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": false,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": false,
+    "room_types": [
+      "living_room"
+    ],
+    "num_scenes": 3,
+    "sample_ids": [
+      "WateringCan|-00.82|+00.01|+00.19",
+      "WateringCan|-03.37|+00.00|+02.56"
+    ]
+  },
+  "Window": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": false,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": false,
+    "dirtyable": false,
+    "room_types": [
+      "bathroom",
+      "bedroom",
+      "kitchen",
+      "living_room"
+    ],
+    "num_scenes": 17,
+    "sample_ids": [
+      "Window|-02.23|+01.43|-01.20",
+      "Window|-03.24|+01.62|+02.69"
+    ]
+  },
+  "WineBottle": {
+    "toggleable": false,
+    "openable": false,
+    "breakable": true,
+    "sliceable": false,
+    "cookable": false,
+    "pickupable": true,
+    "receptacle": false,
+    "moveable": false,
+    "canFillWithLiquid": true,
+    "dirtyable": false,
+    "room_types": [
+      "kitchen"
+    ],
+    "num_scenes": 2,
+    "sample_ids": [
+      "WineBottle|-01.00|+01.65|-02.58",
+      "WineBottle|+00.96|+01.31|-01.01"
+    ]
+  }
+}

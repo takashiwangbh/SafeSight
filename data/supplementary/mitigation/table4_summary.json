@@ -1,0 +1,266 @@
+{
+  "track": "text_and_image",
+  "s1_threshold": 0.6,
+  "egav_population": [
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "egav_mode": "state",
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.2079,
+      "recall_before": 0.9865,
+      "recall_after": 0.7901,
+      "f1_before": 0.8436,
+      "f1_after": 0.8436,
+      "fp_overturned": 240,
+      "tp_lost": 175
+    },
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "egav_mode": "state_object",
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.4101,
+      "recall_before": 0.9865,
+      "recall_after": 0.8911,
+      "f1_before": 0.8436,
+      "f1_after": 0.8673,
+      "fp_overturned": 168,
+      "tp_lost": 85
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "egav_mode": "state",
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.177,
+      "recall_before": 0.8878,
+      "recall_after": 0.7183,
+      "f1_before": 0.81,
+      "f1_after": 0.803,
+      "fp_overturned": 208,
+      "tp_lost": 151
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "egav_mode": "state_object",
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.3455,
+      "recall_before": 0.8878,
+      "recall_after": 0.8013,
+      "f1_before": 0.81,
+      "f1_after": 0.8264,
+      "fp_overturned": 148,
+      "tp_lost": 77
+    }
+  ],
+  "population_confidence_gate": [
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "threshold": 0.6,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.8792,
+      "recall_before": 0.9865,
+      "recall_after": 0.9854,
+      "fp_overturned": 1,
+      "tp_lost": 1
+    },
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "threshold": 0.7,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.8792,
+      "recall_before": 0.9865,
+      "recall_after": 0.9854,
+      "fp_overturned": 1,
+      "tp_lost": 1
+    },
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "threshold": 0.8,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.8624,
+      "recall_before": 0.9865,
+      "recall_after": 0.9719,
+      "fp_overturned": 7,
+      "tp_lost": 13
+    },
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "threshold": 0.9,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.8624,
+      "recall_before": 0.9865,
+      "recall_after": 0.9719,
+      "fp_overturned": 7,
+      "tp_lost": 13
+    },
+    {
+      "model": "qwen2vl-7b",
+      "track": "text_and_image",
+      "threshold": 0.95,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.882,
+      "far_after": 0.073,
+      "recall_before": 0.9865,
+      "recall_after": 0.3367,
+      "fp_overturned": 288,
+      "tp_lost": 579
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "threshold": 0.6,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.736,
+      "recall_before": 0.8878,
+      "recall_after": 0.8777,
+      "fp_overturned": 9,
+      "tp_lost": 9
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "threshold": 0.7,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.736,
+      "recall_before": 0.8878,
+      "recall_after": 0.8777,
+      "fp_overturned": 9,
+      "tp_lost": 9
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "threshold": 0.8,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.3118,
+      "recall_before": 0.8878,
+      "recall_after": 0.4456,
+      "fp_overturned": 160,
+      "tp_lost": 394
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "threshold": 0.9,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.0028,
+      "recall_before": 0.8878,
+      "recall_after": 0.0976,
+      "fp_overturned": 270,
+      "tp_lost": 704
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "track": "text_and_image",
+      "threshold": 0.95,
+      "n_safe": 356,
+      "n_hazard": 891,
+      "far_before": 0.7612,
+      "far_after": 0.0,
+      "recall_before": 0.8878,
+      "recall_after": 0.0045,
+      "fp_overturned": 271,
+      "tp_lost": 787
+    }
+  ],
+  "sample_pools": [
+    {
+      "model": "qwen2vl-7b",
+      "method": "confidence_gate@0.6",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.01,
+      "tp_retention_rate": 1.0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "method": "self_correction",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 1.0,
+      "tp_retention_rate": 0.12,
+      "sc_outputs_missing": 0
+    },
+    {
+      "model": "qwen2vl-7b",
+      "method": "egav_state",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.72,
+      "tp_retention_rate": 0.86
+    },
+    {
+      "model": "qwen2vl-7b",
+      "method": "egav_state_object",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.53,
+      "tp_retention_rate": 1.0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "method": "confidence_gate@0.6",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.03,
+      "tp_retention_rate": 1.0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "method": "self_correction",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.7,
+      "tp_retention_rate": 0.22,
+      "sc_outputs_missing": 0
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "method": "egav_state",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.77,
+      "tp_retention_rate": 0.84
+    },
+    {
+      "model": "llama3.2-vision-11b",
+      "method": "egav_state_object",
+      "n_fp": 100,
+      "n_tp": 50,
+      "fp_suppression_rate": 0.62,
+      "tp_retention_rate": 0.88
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+llama3-chatqa-8b_text_only,0.0,891,-3.906,2,-5,0.044,0.131,0.825,0.0,0.0

@@ -1,0 +1,25 @@
+# SafeSight — core dependencies
+#
+# Scene generation (harvest/) requires the AI2-THOR simulator and a working
+# OpenGL/display (or a headless X server such as the one ai2thor can start).
+# Evaluation (evaluate/) requires a CUDA-capable GPU for the local models.
+# Offline scoring (score/, supplementary/*/score_*.py) needs only the standard
+# library plus numpy.
+
+# --- Simulator / scene generation ---
+ai2thor>=5.0.0
+
+# --- Imaging (rendering I/O, RGB-level corruption probe) ---
+numpy>=1.24
+Pillow>=9.0
+
+# --- Local model inference (evaluation tracks) ---
+torch>=2.1
+transformers>=4.45
+accelerate>=0.30        # device mapping for larger checkpoints
+
+# --- Optional: OpenAI-backed juror for cross_verify/ (read from $OPENAI_API_KEY) ---
+openai>=1.40
+
+# --- Optional: HTTP-served local models via llm_client.py ---
+requests>=2.31

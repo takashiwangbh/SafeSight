@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+llava1.6-13b_text_and_image,0.0,891,1.641,2,-5,0.924,0.029,0.047,0.0,0.0

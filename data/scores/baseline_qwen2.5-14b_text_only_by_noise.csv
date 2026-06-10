@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+qwen2.5-14b_text_only,0.0,891,-0.556,2,-5,0.599,0.042,0.359,0.0,0.0

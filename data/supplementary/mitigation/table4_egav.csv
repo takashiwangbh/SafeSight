@@ -1,0 +1,5 @@
+model,track,egav_mode,f1_after,f1_before,far_after,far_before,fp_overturned,n_hazard,n_safe,recall_after,recall_before,tp_lost
+qwen2vl-7b,text_and_image,state,0.8436,0.8436,0.2079,0.882,240,891,356,0.7901,0.9865,175
+qwen2vl-7b,text_and_image,state_object,0.8673,0.8436,0.4101,0.882,168,891,356,0.8911,0.9865,85
+llama3.2-vision-11b,text_and_image,state,0.803,0.81,0.177,0.7612,208,891,356,0.7183,0.8878,151
+llama3.2-vision-11b,text_and_image,state_object,0.8264,0.81,0.3455,0.7612,148,891,356,0.8013,0.8878,77

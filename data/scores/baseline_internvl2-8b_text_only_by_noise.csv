@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+internvl2-8b_text_only,0.0,891,0.98,2,-5,0.848,0.007,0.145,0.0,0.0

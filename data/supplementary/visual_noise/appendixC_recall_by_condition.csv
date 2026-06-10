@@ -1,0 +1,15 @@
+model,condition,noise_type,intensity,n,recall,delta_vs_clean
+qwen2vl-7b,clean,clean,0.0,50,1.0,0.0
+qwen2vl-7b,gaussian_sensor_0.3,gaussian_sensor,0.3,50,0.98,-0.02
+qwen2vl-7b,gaussian_sensor_0.7,gaussian_sensor,0.7,50,0.98,-0.02
+qwen2vl-7b,low_illumination_0.3,low_illumination,0.3,50,1.0,0.0
+qwen2vl-7b,low_illumination_0.7,low_illumination,0.7,50,1.0,0.0
+qwen2vl-7b,motion_blur_0.3,motion_blur,0.3,50,1.0,0.0
+qwen2vl-7b,motion_blur_0.7,motion_blur,0.7,50,1.0,0.0
+llama3.2-vision-11b,clean,clean,0.0,50,1.0,0.0
+llama3.2-vision-11b,gaussian_sensor_0.3,gaussian_sensor,0.3,50,0.9,-0.1
+llama3.2-vision-11b,gaussian_sensor_0.7,gaussian_sensor,0.7,50,0.94,-0.06
+llama3.2-vision-11b,low_illumination_0.3,low_illumination,0.3,50,0.98,-0.02
+llama3.2-vision-11b,low_illumination_0.7,low_illumination,0.7,50,0.96,-0.04
+llama3.2-vision-11b,motion_blur_0.3,motion_blur,0.3,50,1.0,0.0
+llama3.2-vision-11b,motion_blur_0.7,motion_blur,0.7,50,0.98,-0.02

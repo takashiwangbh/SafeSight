@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+qwen2vl-7b_image_only,0.0,891,1.156,2,-5,0.553,0.38,0.066,0.0,0.0

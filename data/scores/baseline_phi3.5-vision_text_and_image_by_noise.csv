@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+phi3.5-vision_text_and_image,0.0,891,-2.799,2,-5,0.255,0.07,0.676,0.0,0.0

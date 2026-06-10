@@ -1,0 +1,2 @@
+model,noise_level,count,avg_score,max_score,min_score,safe_intervention_rate,conservative_rate,fatal_ignore_rate,false_alarm_rate,unparseable_rate
+mistral-7b_text_only,0.0,891,-1.634,2,-5,0.039,0.515,0.446,0.0,0.0
