@@ -16,8 +16,7 @@ or unattended stoves. Benchmarks that evaluate this ability mainly through
 **over-prediction (false alarms) on matched safe scenes** — and several
 diagnostic behaviors that recall alone cannot capture.
 
-The project has two clearly separated layers (this distinction is the answer to
-the common “is this a dataset or a framework?” question):
+The project has two clearly separated layers :
 
 - **SafeSight (framework).** An extensible, AI2-THOR-grounded pipeline:
   simulator-grounded hazard operationalization, safe-control construction,
@@ -55,7 +54,7 @@ of the simulator labels.
 | Quantity | Value |
 |----------|-------|
 | Hazard templates | **33** (15 kitchen, 7 bathroom, 6 living room, 5 bedroom) |
-| Room types / floor plans | 4 / up to 120 iTHOR floor plans |
+| Room types / floor plans | 4 /  120 iTHOR floor plans |
 | Clean hazardous scenes | **891** |
 | Clean safe control scenes | **356** (≈3 viewpoints per floor plan, 119 plans) |
 | Clean base observations | **1,247** |
@@ -86,7 +85,7 @@ outputs are withheld at review time and will be released upon acceptance.
 | `data/scores/` | Included | aggregate CSVs backing the main tables/figures |
 | `data/supplementary/` | Included | aggregate CSVs for Table 3/4 (EGAV) and Appendix C |
 | `data/figures/` | Included | ~60 curated renders (hazards, safe controls, visual-noise examples) |
-| Full scene corpus (18,709 files) | Withheld | regenerable via `benchmark/harvest/`; released on acceptance |
+| Full scene corpus (18,709 files) | Withheld | regenerable; released on acceptance |
 | Raw / per-record model outputs (142,542 / 137,182) | Withheld | released on acceptance |
 
 ```
@@ -108,9 +107,9 @@ safesight-anon/
 
 - Hazard labels are operationalized through AI2-THOR object states, affordances,
   and action outcomes, giving every scene executable, metadata-verifiable
-  grounding rather than post-hoc visual heuristics.
+  grounding.
 - The complete corpus is large: the 18,709 rendered scene files plus the 142,542
-  raw model-output JSON files total roughly **2 GB**, which is why the full
+  raw model-output JSON files total over **2 GB**, which is why the full
   dataset is not shipped inside this review repository. The aggregate CSVs under
   `data/` reproduce every number reported in the paper, and the full corpus will
   be released upon acceptance.
