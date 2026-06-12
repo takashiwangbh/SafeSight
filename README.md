@@ -4,6 +4,29 @@ This repository is the **anonymized code-and-results artifact** accompanying the
 paper *“SafeSight: Auditing False Alarms in Embodied Hazard Perception.”* It is
 released for peer review and contains no author-identifying information.
 
+<p align="center">
+  <img src="data/figures/hazards/kitchen_FloorPlan1_multiple_burners_on.png" width="23%"/>
+  <img src="data/figures/hazards/bathroom_FloorPlan401_broken_mirror_bathroom.png" width="23%"/>
+  <img src="data/figures/hazards/bedroom_FloorPlan301_broken_window_bedroom.png" width="23%"/>
+  <img src="data/figures/hazards/bedroom_FloorPlan301_laptop_on_bed_overheat.png" width="23%"/>
+  <br/>
+  <img src="data/figures/hazards/kitchen_FloorPlan1_toaster_on_unattended.png" width="23%"/>
+  <img src="data/figures/hazards/bathroom_FloorPlan401_faucet_running_bathroom.png" width="23%"/>
+  <img src="data/figures/hazards/living_room_FloorPlan201_tv_on_unattended.png" width="23%"/>
+  <img src="data/figures/hazards/living_room_FloorPlan201_floor_lamp_on_unattended.png" width="23%"/>
+  <br/>
+  <img src="data/figures/safe_controls/kitchen_FloorPlan10_safe_view0.png" width="23%"/>
+  <img src="data/figures/safe_controls/living_room_FloorPlan201_safe_view0.png" width="23%"/>
+  <img src="data/figures/safe_controls/bedroom_FloorPlan301_safe_view1.png" width="23%"/>
+  <br/>
+  <sub><b>Figure 1.</b> Example SafeSight-Bench scenes. <b>Top two rows:</b> hazardous
+  scenes spanning fire (gas burners, toaster), laceration (shattered mirror,
+  cracked window), overheating (laptop on bed), water (filling tub), and
+  electrical (TV, floor lamp) risks across four room types. <b>Bottom row:</b>
+  matched <i>safe</i> controls with the same rooms and objects but no hazardous
+  state — the basis for measuring false alarms.</sub>
+</p>
+
 ---
 
 ## 1. Introduction
