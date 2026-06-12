@@ -6,25 +6,27 @@ released for peer review and contains no author-identifying information.
 
 <p align="center">
   <img src="data/figures/hazards/kitchen_FloorPlan1_multiple_burners_on.png" width="23%"/>
+  <img src="data/figures/hazards/kitchen_FloorPlan1_fridge_left_open.png" width="23%"/>
   <img src="data/figures/hazards/bathroom_FloorPlan401_broken_mirror_bathroom.png" width="23%"/>
+  <img src="data/figures/hazards/bathroom_FloorPlan401_faucet_running_bathroom.png" width="23%"/>
+  <br/>
   <img src="data/figures/hazards/bedroom_FloorPlan301_broken_window_bedroom.png" width="23%"/>
   <img src="data/figures/hazards/bedroom_FloorPlan301_laptop_on_bed_overheat.png" width="23%"/>
-  <br/>
-  <img src="data/figures/hazards/kitchen_FloorPlan1_toaster_on_unattended.png" width="23%"/>
-  <img src="data/figures/hazards/bathroom_FloorPlan401_faucet_running_bathroom.png" width="23%"/>
   <img src="data/figures/hazards/living_room_FloorPlan201_tv_on_unattended.png" width="23%"/>
   <img src="data/figures/hazards/living_room_FloorPlan201_floor_lamp_on_unattended.png" width="23%"/>
   <br/>
-  <img src="data/figures/safe_controls/kitchen_FloorPlan10_safe_view0.png" width="23%"/>
-  <img src="data/figures/safe_controls/living_room_FloorPlan201_safe_view0.png" width="23%"/>
+  <img src="data/figures/safe_controls/kitchen_FloorPlan10_safe_view1.png" width="23%"/>
+  <img src="data/figures/safe_controls/bathroom_FloorPlan401_safe_view1.png" width="23%"/>
   <img src="data/figures/safe_controls/bedroom_FloorPlan301_safe_view1.png" width="23%"/>
+  <img src="data/figures/safe_controls/living_room_FloorPlan201_safe_view0.png" width="23%"/>
   <br/>
-  <sub><b>Figure 1.</b> Example SafeSight-Bench scenes. <b>Top two rows:</b> hazardous
-  scenes spanning fire (gas burners, toaster), laceration (shattered mirror,
-  cracked window), overheating (laptop on bed), water (filling tub), and
-  electrical (TV, floor lamp) risks across four room types. <b>Bottom row:</b>
-  matched <i>safe</i> controls with the same rooms and objects but no hazardous
-  state — the basis for measuring false alarms.</sub>
+  <sub><b>Figure 1.</b> Example SafeSight-Bench scenes. <b>Top two rows:</b> eight
+  hazardous scenes spanning fire (gas burners on), an appliance left open
+  (refrigerator), laceration (shattered mirror, cracked window), water (filling
+  bathtub), overheating (laptop on bed), and electrical risks (TV and floor lamp
+  left on) across four room types. <b>Bottom row:</b> matched <i>safe</i> controls
+  for the same four room types (kitchen, bathroom, bedroom, living room) with
+  intact layouts and no hazardous state — the basis for measuring false alarms.</sub>
 </p>
 
 ---
@@ -39,7 +41,8 @@ or unattended stoves. Benchmarks that evaluate this ability mainly through
 **over-prediction (false alarms) on matched safe scenes** — and several
 diagnostic behaviors that recall alone cannot capture.
 
-The project has two clearly separated layers :
+The project has two clearly separated layers (this distinction is the answer to
+the common “is this a dataset or a framework?” question):
 
 - **SafeSight (framework).** An extensible, AI2-THOR-grounded pipeline:
   simulator-grounded hazard operationalization, safe-control construction,
@@ -77,7 +80,7 @@ of the simulator labels.
 | Quantity | Value |
 |----------|-------|
 | Hazard templates | **33** (15 kitchen, 7 bathroom, 6 living room, 5 bedroom) |
-| Room types / floor plans | 4 /  120 iTHOR floor plans |
+| Room types / floor plans | 4 / up to 120 iTHOR floor plans |
 | Clean hazardous scenes | **891** |
 | Clean safe control scenes | **356** (≈3 viewpoints per floor plan, 119 plans) |
 | Clean base observations | **1,247** |
@@ -108,7 +111,7 @@ outputs are withheld at review time and will be released upon acceptance.
 | `data/scores/` | Included | aggregate CSVs backing the main tables/figures |
 | `data/supplementary/` | Included | aggregate CSVs for Table 3/4 (EGAV) and Appendix C |
 | `data/figures/` | Included | ~60 curated renders (hazards, safe controls, visual-noise examples) |
-| Full scene corpus (18,709 files) | Withheld | regenerable; released on acceptance |
+| Full scene corpus (18,709 files) | Withheld | regenerable via `benchmark/harvest/`; released on acceptance |
 | Raw / per-record model outputs (142,542 / 137,182) | Withheld | released on acceptance |
 
 ```
@@ -130,9 +133,9 @@ safesight-anon/
 
 - Hazard labels are operationalized through AI2-THOR object states, affordances,
   and action outcomes, giving every scene executable, metadata-verifiable
-  grounding.
+  grounding rather than post-hoc visual heuristics.
 - The complete corpus is large: the 18,709 rendered scene files plus the 142,542
-  raw model-output JSON files total over **2 GB**, which is why the full
+  raw model-output JSON files total roughly **2 GB**, which is why the full
   dataset is not shipped inside this review repository. The aggregate CSVs under
   `data/` reproduce every number reported in the paper, and the full corpus will
   be released upon acceptance.
