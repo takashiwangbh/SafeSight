@@ -1,0 +1,252 @@
+{
+  "n_total_scenes": 500,
+  "n_sensor_observable": 456,
+  "n_nonobservable_hazard": 44,
+  "juries": [
+    "qwen2.5-72b-bnb4",
+    "llama3.1-70b-bnb4",
+    "gpt-5.5"
+  ],
+  "all_scenes": {
+    "n_scenes": 500,
+    "n_hazard": 250,
+    "n_safe": 250,
+    "sim_vs_qwen2.5-72b-bnb4": {
+      "tp": 166,
+      "fp": 2,
+      "tn": 248,
+      "fn": 84,
+      "unknown": 0,
+      "n_effective": 500,
+      "accuracy": 0.828,
+      "cohens_kappa": 0.656
+    },
+    "sim_vs_llama3.1-70b-bnb4": {
+      "tp": 148,
+      "fp": 1,
+      "tn": 249,
+      "fn": 102,
+      "unknown": 0,
+      "n_effective": 500,
+      "accuracy": 0.794,
+      "cohens_kappa": 0.588
+    },
+    "sim_vs_gpt-5.5": {
+      "tp": 182,
+      "fp": 10,
+      "tn": 240,
+      "fn": 68,
+      "unknown": 0,
+      "n_effective": 500,
+      "accuracy": 0.844,
+      "cohens_kappa": 0.688
+    },
+    "sim_vs_dual_consensus": {
+      "tp": 148,
+      "fp": 0,
+      "tn": 247,
+      "fn": 84,
+      "unknown": 0,
+      "n_effective": 479,
+      "accuracy": 0.8246,
+      "split_count": 21
+    },
+    "sim_vs_unanimous_consensus": {
+      "tp": 145,
+      "fp": 0,
+      "tn": 238,
+      "fn": 61,
+      "unknown": 0,
+      "n_effective": 444,
+      "accuracy": 0.8626,
+      "split_count": 56,
+      "n_jurors": 3
+    },
+    "sim_vs_majority_consensus": {
+      "tp": 162,
+      "fp": 1,
+      "tn": 249,
+      "fn": 88,
+      "unknown": 0,
+      "n_effective": 500,
+      "accuracy": 0.822,
+      "split_count": 0,
+      "n_jurors": 3
+    },
+    "inter_jury": {
+      "tp": 148,
+      "fp": 1,
+      "tn": 331,
+      "fn": 20,
+      "unknown": 0,
+      "n_effective": 500,
+      "accuracy": 0.958,
+      "cohens_kappa": 0.9032,
+      "jury_a": "qwen2.5-72b-bnb4",
+      "jury_b": "llama3.1-70b-bnb4"
+    },
+    "inter_jury_pairs": [
+      {
+        "tp": 148,
+        "fp": 1,
+        "tn": 331,
+        "fn": 20,
+        "unknown": 0,
+        "n_effective": 500,
+        "accuracy": 0.958,
+        "cohens_kappa": 0.9032,
+        "jury_a": "qwen2.5-72b-bnb4",
+        "jury_b": "llama3.1-70b-bnb4"
+      },
+      {
+        "tp": 160,
+        "fp": 32,
+        "tn": 300,
+        "fn": 8,
+        "unknown": 0,
+        "n_effective": 500,
+        "accuracy": 0.92,
+        "cohens_kappa": 0.8268,
+        "jury_a": "qwen2.5-72b-bnb4",
+        "jury_b": "gpt-5.5"
+      },
+      {
+        "tp": 145,
+        "fp": 47,
+        "tn": 304,
+        "fn": 4,
+        "unknown": 0,
+        "n_effective": 500,
+        "accuracy": 0.898,
+        "cohens_kappa": 0.7749,
+        "jury_a": "llama3.1-70b-bnb4",
+        "jury_b": "gpt-5.5"
+      }
+    ],
+    "hazard_keyword_overlap": {
+      "n_eligible": 245,
+      "hit_rate": 0.8245
+    }
+  },
+  "sensor_observable_subset": {
+    "n_scenes": 456,
+    "n_hazard": 206,
+    "n_safe": 250,
+    "sim_vs_qwen2.5-72b-bnb4": {
+      "tp": 166,
+      "fp": 2,
+      "tn": 248,
+      "fn": 40,
+      "unknown": 0,
+      "n_effective": 456,
+      "accuracy": 0.9079,
+      "cohens_kappa": 0.811
+    },
+    "sim_vs_llama3.1-70b-bnb4": {
+      "tp": 148,
+      "fp": 1,
+      "tn": 249,
+      "fn": 58,
+      "unknown": 0,
+      "n_effective": 456,
+      "accuracy": 0.8706,
+      "cohens_kappa": 0.7323
+    },
+    "sim_vs_gpt-5.5": {
+      "tp": 178,
+      "fp": 10,
+      "tn": 240,
+      "fn": 28,
+      "unknown": 0,
+      "n_effective": 456,
+      "accuracy": 0.9167,
+      "cohens_kappa": 0.8305
+    },
+    "sim_vs_dual_consensus": {
+      "tp": 148,
+      "fp": 0,
+      "tn": 247,
+      "fn": 40,
+      "unknown": 0,
+      "n_effective": 435,
+      "accuracy": 0.908,
+      "split_count": 21
+    },
+    "sim_vs_unanimous_consensus": {
+      "tp": 145,
+      "fp": 0,
+      "tn": 238,
+      "fn": 21,
+      "unknown": 0,
+      "n_effective": 404,
+      "accuracy": 0.948,
+      "split_count": 52,
+      "n_jurors": 3
+    },
+    "sim_vs_majority_consensus": {
+      "tp": 162,
+      "fp": 1,
+      "tn": 249,
+      "fn": 44,
+      "unknown": 0,
+      "n_effective": 456,
+      "accuracy": 0.9013,
+      "split_count": 0,
+      "n_jurors": 3
+    },
+    "inter_jury": {
+      "tp": 148,
+      "fp": 1,
+      "tn": 287,
+      "fn": 20,
+      "unknown": 0,
+      "n_effective": 456,
+      "accuracy": 0.9539,
+      "cohens_kappa": 0.8987,
+      "jury_a": "qwen2.5-72b-bnb4",
+      "jury_b": "llama3.1-70b-bnb4"
+    },
+    "inter_jury_pairs": [
+      {
+        "tp": 148,
+        "fp": 1,
+        "tn": 287,
+        "fn": 20,
+        "unknown": 0,
+        "n_effective": 456,
+        "accuracy": 0.9539,
+        "cohens_kappa": 0.8987,
+        "jury_a": "qwen2.5-72b-bnb4",
+        "jury_b": "llama3.1-70b-bnb4"
+      },
+      {
+        "tp": 160,
+        "fp": 28,
+        "tn": 260,
+        "fn": 8,
+        "unknown": 0,
+        "n_effective": 456,
+        "accuracy": 0.9211,
+        "cohens_kappa": 0.8345,
+        "jury_a": "qwen2.5-72b-bnb4",
+        "jury_b": "gpt-5.5"
+      },
+      {
+        "tp": 145,
+        "fp": 43,
+        "tn": 264,
+        "fn": 4,
+        "unknown": 0,
+        "n_effective": 456,
+        "accuracy": 0.8969,
+        "cohens_kappa": 0.7805,
+        "jury_a": "llama3.1-70b-bnb4",
+        "jury_b": "gpt-5.5"
+      }
+    ],
+    "hazard_keyword_overlap": {
+      "n_eligible": 206,
+      "hit_rate": 0.8252
+    }
+  }
+}

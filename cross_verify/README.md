@@ -21,28 +21,99 @@ cross_verify/
 The pipeline reuses model loading, VRAM preflight, hazard-keyword alignment, and
 JSON parsing from `benchmark/` and `llm_client.py`.
 
-## Juror registry
+## Verifier panel
 
-`config.py` defines the jury. Each entry carries a `provider` field
-(`huggingface` or `openai`); the evaluator dispatches on it. The default setup
-uses two 70B-class instruct models from different families plus an optional
-API-served reasoning model. HuggingFace jurors are loaded one at a time; an
-optional API juror uses no local GPU. The key for the API juror is read only
-from the `OPENAI_API_KEY` environment variable, and the pipeline simply skips
-that juror when the key is unset.
+`config.py` defines the panel. Each entry carries a `provider` field
+(`huggingface` or `openai`); the evaluator dispatches on it. The released setup
+uses **three independent verifiers** spanning two access regimes and three model
+families:
 
-## Outputs
+| Verifier | Family | Access |
+| --- | --- | --- |
+| Qwen2.5-72B-Instruct | Qwen | open-weight, local (4-bit) |
+| Llama-3.1-70B-Instruct | Llama | open-weight, local (4-bit) |
+| GPT-5.5 | GPT | proprietary, API |
 
-Results are written under `data/cross_verify/`: a sampling manifest, per-juror
-per-scene results, a per-scene consensus table (with a `sensor_observable`
-flag), headline numbers for Section 7, and breakdowns by severity / room /
-recipe and by per-recipe observability rate.
+HuggingFace verifiers are loaded one at a time, so a single 48 GiB GPU suffices;
+the API verifier uses no local GPU and is read only from the `OPENAI_API_KEY`
+environment variable (the pipeline skips it when the key is unset). Spanning
+open-weight and proprietary models from different providers ensures the
+agreement signal is not specific to any one model family.
 
-## Consensus modes
+## Released outputs
 
-- **2 jurors:** unanimous equals majority (reported as *"dual-model consensus"*).
-- **3 jurors:** majority means ≥2/3 agree; unanimous means 3/3 agree. The
-  majority figure is the headline, with the unanimous figure disclosed alongside.
+The aggregate results that back the tables below are included under
+`data/cross_verify/consensus/`:
+
+| File | Content |
+| --- | --- |
+| `summary.json` | headline agreement statistics (full sample and observable subset) |
+| `per_scene.csv` | one row per scene: simulator label, each verifier's verdict, keyword-overlap flags, observability flag |
+| `by_segment.csv` | agreement broken down by severity / room / recipe |
+| `by_observability.csv` | per-recipe metadata-observability rate |
+
+Per-verifier raw response files and the scene sampling manifest are produced by
+the pipeline at run time; only the aggregate tables are distributed here.
+
+## Reporting
+
+Each verifier is scored independently against the simulator label (accuracy and
+Cohen's κ). Inter-verifier agreement is reported pairwise. Derived
+consensus columns (`dual`, `majority`, `unanimous`) are also provided in
+`per_scene.csv` for completeness, but the primary signal is the per-verifier and
+pairwise agreement, which makes no voting assumption.
+
+## Results
+
+All numbers below are computed from the files in
+`data/cross_verify/consensus/` over a fixed stratified sample of **500 scenes**
+(250 hazardous, 250 safe). The **sensor-observable subset** (N=456) is all
+safe scenes plus the hazardous scenes whose metadata exposes at least one
+abnormal state flag (see definition below). Agreement is reported as accuracy
+and Cohen's κ.
+
+**Table 1 — Agreement of each independent verifier with the simulator label.**
+
+| Verifier | Observable Acc (N=456) | κ | Full Acc (N=500) | κ |
+| --- | :---: | :---: | :---: | :---: |
+| Qwen2.5-72B-Instruct | 0.908 | 0.811 | 0.828 | 0.656 |
+| Llama-3.1-70B-Instruct | 0.871 | 0.732 | 0.794 | 0.588 |
+| GPT-5.5 | 0.917 | 0.831 | 0.844 | 0.688 |
+
+All three verifiers independently reproduce the simulator label on the
+observable subset with substantial-to-strong agreement. The proprietary
+verifier (different provider, no shared weights with the local pair) agrees most
+strongly, indicating the labels are not an artifact of any single model family.
+
+**Table 2 — Pairwise inter-verifier agreement.**
+
+| Pair | Observable Acc | κ | Full Acc | κ |
+| --- | :---: | :---: | :---: | :---: |
+| Qwen2.5-72B ↔ Llama-3.1-70B | 0.954 | 0.899 | 0.958 | 0.903 |
+| Qwen2.5-72B ↔ GPT-5.5 | 0.921 | 0.835 | 0.920 | 0.827 |
+| Llama-3.1-70B ↔ GPT-5.5 | 0.897 | 0.781 | 0.898 | 0.775 |
+
+**Table 3 — Agreement by template severity (two local verifiers' consensus, N=500).**
+
+| Severity tier | Scenes | Agreement |
+| --- | :---: | :---: |
+| Critical hazard | 35 | 1.000 |
+| High hazard | 88 | 0.739 |
+| Medium hazard | 84 | 0.545 |
+| Low hazard | 43 | 0.279 |
+| Safe baseline | 250 | 1.000 |
+
+Agreement is highest for critical hazards and safe baselines and decreases for
+lower-severity templates, which describe genuinely borderline situations (e.g.
+an unattended lamp). Among verifier-confirmed hazardous scenes, **82.5%** mention
+a keyword aligned with the template's danger label, indicating the agreement is
+grounded in the named hazard rather than incidental. The three-model majority
+column is available in `by_segment.csv` for readers who prefer a panel vote.
+
+The observable-vs-full gap (e.g. GPT-5.5 0.917 → 0.844) is itself a finding: a
+minority of recipes render a hazard visually but do not propagate it into the
+object metadata, so the verifiers — like the audited models — read "clean"
+sensor data. `by_observability.csv` lists the per-recipe observability rate.
 
 ## Sensor-observability
 

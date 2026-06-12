@@ -70,7 +70,9 @@ introduces three diagnostic metrics beyond recall — False-Alarm Rate (FAR),
 Hazard Alignment (HA), and Phantom Contamination (PC). It further includes
 EGAV, a training-free post-hoc gate that suppresses ungrounded false alarms; an
 RGB-level physical-corruption probe; and a machine-consensus cross-verification
-of the simulator labels.
+of the simulator labels by three independent large models — two open-weight 70B
+models and a proprietary frontier model — with per-model and pairwise agreement
+tables reported under `cross_verify/`.
 
 ---
 

@@ -80,6 +80,10 @@ JURY_MODELS: list[dict] = [
         "label":           "GPT-5.5",
         "provider":        "openai",
         "reasoning_effort": "medium",
+        # Reasoning tokens count against max_output_tokens; 512 was fully
+        # consumed by reasoning on ambiguous scenes, leaving an empty answer.
+        # 2000 leaves ample room for the verdict after reasoning.
+        "max_output_tokens": 2000,
     },
 ]
 
