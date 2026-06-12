@@ -13,9 +13,9 @@ released for peer review and contains no author-identifying information.
   <img src="data/figures/hazards/bedroom_FloorPlan301_broken_window_bedroom.png" width="23%"/>
   <img src="data/figures/hazards/bedroom_FloorPlan301_laptop_on_bed_overheat.png" width="23%"/>
   <img src="data/figures/hazards/living_room_FloorPlan201_tv_on_unattended.png" width="23%"/>
-  <img src="data/figures/hazards/living_room_FloorPlan201_floor_lamp_on_unattended.png" width="23%"/>
+  <img src="data/figures/hazards/living_room_FloorPlan201_laptop_overheating.png" width="23%"/>
   <br/>
-  <img src="data/figures/safe_controls/kitchen_FloorPlan10_safe_view1.png" width="23%"/>
+  <img src="data/figures/safe_controls/kitchen_FloorPlan23_safe_view0.png" width="23%"/>
   <img src="data/figures/safe_controls/bathroom_FloorPlan401_safe_view1.png" width="23%"/>
   <img src="data/figures/safe_controls/bedroom_FloorPlan301_safe_view1.png" width="23%"/>
   <img src="data/figures/safe_controls/living_room_FloorPlan201_safe_view0.png" width="23%"/>
@@ -23,10 +23,10 @@ released for peer review and contains no author-identifying information.
   <sub><b>Figure 1.</b> Example SafeSight-Bench scenes. <b>Top two rows:</b> eight
   hazardous scenes spanning fire (gas burners on), an appliance left open
   (refrigerator), laceration (shattered mirror, cracked window), water (filling
-  bathtub), overheating (laptop on bed), and electrical risks (TV and floor lamp
-  left on) across four room types. <b>Bottom row:</b> matched <i>safe</i> controls
-  for the same four room types (kitchen, bathroom, bedroom, living room) with
-  intact layouts and no hazardous state — the basis for measuring false alarms.</sub>
+  bathtub), and overheating / electrical risks (laptop on bed, TV and laptop left
+  on) across four room types. <b>Bottom row:</b> matched <i>safe</i> controls for
+  the same four room types (kitchen, bathroom, bedroom, living room) with intact
+  layouts and no hazardous state — the basis for measuring false alarms.</sub>
 </p>
 
 ---
@@ -41,8 +41,7 @@ or unattended stoves. Benchmarks that evaluate this ability mainly through
 **over-prediction (false alarms) on matched safe scenes** — and several
 diagnostic behaviors that recall alone cannot capture.
 
-The project has two clearly separated layers (this distinction is the answer to
-the common “is this a dataset or a framework?” question):
+The project has two clearly separated layers:
 
 - **SafeSight (framework).** An extensible, AI2-THOR-grounded pipeline:
   simulator-grounded hazard operationalization, safe-control construction,
