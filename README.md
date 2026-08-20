@@ -138,8 +138,7 @@ safesight-anon/
 - The complete corpus is large: the 18,709 rendered scene files plus the 142,542
   raw model-output JSON files total roughly **2 GB**, which is why the full
   dataset is not shipped inside this review repository. The aggregate CSVs under
-  `data/` reproduce every number reported in the paper, and the full corpus will
-  be released upon acceptance.
+  `data/` reproduce every number reported in the paper.
 - No secrets are stored in code. The optional OpenAI-backed juror in
   `cross_verify/` reads its key only from the `OPENAI_API_KEY` environment
   variable.
