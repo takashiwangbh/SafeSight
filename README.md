@@ -142,3 +142,22 @@ safesight-anon/
 - No secrets are stored in code. The optional OpenAI-backed juror in
   `cross_verify/` reads its key only from the `OPENAI_API_KEY` environment
   variable.
+
+
+
+## Citation
+
+If you use SafeSight or SafeSight-Bench in your research, please cite our paper accepted at PRICAI 2026:
+
+```bibtex
+@inproceedings{BinghaoWangPRICAI2026,
+  title     = {SafeSight: Auditing False Alarms in Embodied Hazard Perception},
+  author    = {Binghao Wang and Rafal Rzepka},
+  booktitle = {Proceedings of the Pacific Rim International Conference on Artificial Intelligence (PRICAI 2026)},
+  series    = {Lecture Notes in Artificial Intelligence},
+  publisher = {Springer},
+  year      = {2026},
+  note      = {Accepted for publication},
+  url       = {https://github.com/takashiwangbh/SafeSight}
+}
+```
